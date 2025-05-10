@@ -18,7 +18,7 @@ def test_homework():
     ]:
         if not os.path.exists(path):
             raise Exception(f"'{path}' directory does not exist")
-
+# ajustar
     try:
         subprocess.run(
             ["python3", "-m", "homework", "data/input", "data/output"],
